@@ -31,9 +31,9 @@ $theme-colors: (
 	border-radius: 0;
 }
 .btn-primary {
-	color: #fff;
-	background-color: #b33d3d;
-	border-color: #b33d5e;
+    color: #fff;
+    background-color: #3db36b;
+    border-color: #3db36b;
 }
 
 
@@ -41,6 +41,168 @@ element.style {
 	max-width: 530px;
 }
 
+.navbar {
+	font-family: Arimo,sans-serif;
+	letter-spacing: .125rem;
+	font-weight: 700;
+	font-size: .75rem;
+	line-height: 1.5;
+	font-family: Arimo,sans-serif;
+	letter-spacing: .125rem;
+	font-weight: 700;
+	font-size: .75rem;
+	line-height: 1.5;
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 2.25rem 1rem;
+}
+.navbar-short.navbar-expand {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	.navbar-collapse {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
+.navbar-expand {
+	padding-top: 0;
+	padding-bottom: 0;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+.w-100 {
+	width: 100% !important;
+}
+.justify-content-between {
+	-ms-flex-pack: justify !important;
+	justify-content: space-between !important;
+}
+element.style {
+}
+.h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child {
+    margin-bottom: 0;
+}
+
+.fs-md-9 {
+    font-size: 2.5rem!important;
+}
+.fs-6 {
+    font-size: 1.5rem!important;
+}
+
+.mt-md-0, .my-md-0 {
+    margin-top: 0!important;
+}
+.mt-5, .my-5 {
+    margin-top: 0.75rem!important;
+}
+.h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {
+    margin-bottom: 1rem;
+}
+.h1, h1 {
+    font-size: 3.125rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.text-center {
+    text-align: center!important;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #FDB813;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --black: #000;
+    --primary: #3DB36B;
+    --secondary: #f9f9f9;
+    --success: #28a745;
+    --info: #4184F3;
+    --warning: #FDB813;
+    --danger: #dc3545;
+    --light: #EFEFEF;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 .fs-md-5 {
 	font-size: 1.125rem !important;
 }
